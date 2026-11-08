@@ -1,0 +1,27 @@
+{
+  "size_km": 16,
+  "note": "Centres (lon, lat) of 16 x 16 km areas. Splits are whole regions, far apart, so the test measures how the model does on places it has never seen.",
+  "regions": [
+    {"name": "cluj", "lon": 23.64, "lat": 46.77, "split": "train", "what": "city, hills, pasture"},
+    {"name": "ploiesti", "lon": 26.02, "lat": 44.94, "split": "train", "what": "city, industry, crops"},
+    {"name": "delta-sfantu-gheorghe", "lon": 29.40, "lat": 44.98, "split": "train", "what": "lakes, reed beds"},
+    {"name": "retezat", "lon": 22.85, "lat": 45.37, "split": "train", "what": "forest, alpine grass, rock"},
+    {"name": "baragan", "lon": 27.40, "lat": 44.55, "split": "train", "what": "crops"},
+    {"name": "maramures", "lon": 24.10, "lat": 47.75, "split": "train", "what": "forest, pasture, villages"},
+    {"name": "brasov", "lon": 25.60, "lat": 45.68, "split": "train", "what": "city, crops, forest"},
+    {"name": "constanta", "lon": 28.60, "lat": 44.20, "split": "train", "what": "city, port, sea, crops"},
+    {"name": "oradea", "lon": 21.92, "lat": 47.06, "split": "val", "what": "city, crops"},
+    {"name": "fagaras", "lon": 24.65, "lat": 45.60, "split": "val", "what": "mountains, rock, forest"},
+    {"name": "iasi", "lon": 27.58, "lat": 47.16, "split": "test", "what": "city, hills, crops"},
+    {"name": "timisoara", "lon": 21.23, "lat": 45.75, "split": "test", "what": "city, plain, crops"},
+    {"name": "delta-letea", "lon": 29.50, "lat": 45.30, "split": "test", "what": "lakes, reed beds, sand"},
+    {"name": "rodna", "lon": 24.80, "lat": 47.57, "split": "test", "what": "mountains, rock, forest"},
+    {"name": "dabuleni", "lon": 24.10, "lat": 43.82, "split": "test", "what": "Danube plain, sands, crops"}
+  ],
+  "change": [
+    {"name": "pipera", "lon": 26.15, "lat": 44.50, "what": "new housing and offices north of Bucharest"},
+    {"name": "floresti", "lon": 23.42, "lat": 46.75, "what": "the suburb west of Cluj"},
+    {"name": "bucovina", "lon": 25.40, "lat": 47.55, "what": "logged spruce forest"},
+    {"name": "apuseni", "lon": 22.75, "lat": 46.50, "what": "logged forest, Apuseni mountains"}
+  ]
+}

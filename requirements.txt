@@ -1,0 +1,10 @@
+# PyTorch: install the build for your machine first, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+numpy==2.5.4
+rasterio==1.5.2
+requests==2.34.2
+scikit-learn==1.9.1
+matplotlib==3.11.2
+onnx==1.23.2
+onnxruntime==1.31.1
+pytest==9.2.0

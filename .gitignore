@@ -1,0 +1,13 @@
+data/
+.venv/
+__pycache__/
+.pytest_cache/
+tiles/target/
+web/node_modules/
+web/dist/
+*.log
+models/unet.pt
+results/*.log
+change.exe
+change/change.exe
+*.exe~

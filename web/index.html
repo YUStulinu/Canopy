@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Canopy — land cover from Sentinel-2</title>
+  </head>
+  <body>
+    <div id="maps">
+      <div id="before" class="map"></div>
+      <div id="after" class="map"></div>
+      <div id="handle"><span>⟷</span></div>
+      <div class="tag left" id="tag-before"></div>
+      <div class="tag right" id="tag-after"></div>
+    </div>
+    <aside>
+      <h1>Canopy</h1>
+      <p class="sub">Land cover of Romania from Sentinel-2, predicted by a U-Net. Drag the handle to compare two dates.</p>
+      <label>Region <select id="region"></select></label>
+      <div class="pair">
+        <fieldset>
+          <legend>Left</legend>
+          <select id="year-before"></select>
+          <select id="layer-before"><option value="rgb">Image</option><option value="classes">Land cover</option></select>
+        </fieldset>
+        <fieldset>
+          <legend>Right</legend>
+          <select id="year-after"></select>
+          <select id="layer-after"><option value="rgb">Image</option><option value="classes">Land cover</option></select>
+        </fieldset>
+      </div>
+      <button id="detect" type="button">What changed?</button>
+      <div id="change"></div>
+      <h2>Classes</h2>
+      <ul id="legend"></ul>
+      <p class="credit">Contains modified Copernicus Sentinel data. Labels for training: ESA WorldCover 2021 (CC BY 4.0). Base map: OpenFreeMap, © OpenStreetMap contributors.</p>
+    </aside>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
